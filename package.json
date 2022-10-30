@@ -1,0 +1,27 @@
+{
+  "name": "space-finder-vitalii-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiStorozh/space-finder-vitalii-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiStorozh/space-finder-vitalii-backend/issues"
+  },
+  "homepage": "https://github.com/VitaliiStorozh/space-finder-vitalii-backend#readme",
+  "devDependencies": {
+    "aws-cdk": "^2.49.0",
+    "aws-cdk-lib": "^2.49.0",
+    "constructs": "^10.1.144",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
