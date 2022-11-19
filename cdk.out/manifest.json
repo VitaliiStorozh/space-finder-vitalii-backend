@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b04c0e18f6a3a068066c736847de66982f01406c1b67bfa8fa73310be790b78e.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/73f929f45840e4df36026315adcfa6165407a5f2069e30d9632e7731d495c6c7.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -40,6 +40,98 @@
         "Space-finder.assets"
       ],
       "metadata": {
+        "/Space-finder/SpaceApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApi1B373D2B"
+          }
+        ],
+        "/Space-finder/SpaceApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApiCloudWatchRole2811DDE0"
+          }
+        ],
+        "/Space-finder/SpaceApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApiAccount1ADAEF20"
+          }
+        ],
+        "/Space-finder/SpaceApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApiDeploymentA2B9E765cd77b2b0e734703ad2339f0008ccb61c"
+          }
+        ],
+        "/Space-finder/SpaceApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApiDeploymentStageprodBB8A31FE"
+          }
+        ],
+        "/Space-finder/SpaceApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApiEndpointDA7E4050"
+          }
+        ],
+        "/Space-finder/SpaceApi/Default/hello/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApihelloDF776653"
+          }
+        ],
+        "/Space-finder/SpaceApi/Default/hello/GET/ApiPermission.SpacefinderSpaceApi0274A94D.GET..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApihelloGETApiPermissionSpacefinderSpaceApi0274A94DGEThelloF2551934"
+          }
+        ],
+        "/Space-finder/SpaceApi/Default/hello/GET/ApiPermission.Test.SpacefinderSpaceApi0274A94D.GET..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApihelloGETApiPermissionTestSpacefinderSpaceApi0274A94DGEThelloEC2F16E7"
+          }
+        ],
+        "/Space-finder/SpaceApi/Default/hello/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApihelloGET65983C27"
+          }
+        ],
+        "/Space-finder/SpacesTable": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": {
+              "Ref": "SpacesTable8A997355"
+            }
+          }
+        ],
+        "/Space-finder/SpacesTable/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesTable8A997355"
+          }
+        ],
+        "/Space-finder/helloLambdaNodeJS/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloLambdaNodeJSServiceRole9951D888"
+          }
+        ],
+        "/Space-finder/helloLambdaNodeJS/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloLambdaNodeJSServiceRoleDefaultPolicy8628AD89"
+          }
+        ],
+        "/Space-finder/helloLambdaNodeJS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloLambdaNodeJSAEFC0103"
+          }
+        ],
         "/Space-finder/CDKMetadata/Default": [
           {
             "type": "aws:cdk:logicalId",
